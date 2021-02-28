@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	
+	<!-- Контейнер для формы -->
+	<form action="#" autocomplete="on" enctype="text/plain" enctype="multipart/form-data" method="GET">
+		<fieldset>
+			<legend>
+				Анкета пользователя
+			</legend>
+
+			<label for="user-name">Введите имя</label>
+			<input id="user-name" type="text" placeholder="Например, Иван" required maxlength="5" minlength="2" autocomplete="on" autofocus name="user-name"><br>
+
+			<label for="#">Введите номер телефона</label>
+			<input type="tel" pattern="" placeholder="8 999 999 99 99"><br>
+
+			<label for="#">Введите емаил</label>
+			<input type="email">
+			<input type="submit" value="Отправить на проверку"><br><!-- Кнопка отправить -->
+
+			<label for="#">Ваше любиме блюдо</label><br>
+			
+			<label for="pizza">Пицца</label>
+			<input id="pizza" type="checkbox">
+			
+			<label for="potato">Картошка</label>
+			<input id="potato" type="checkbox">
+			
+			<label for="beer">Пиво</label>
+			<input id="beer" type="checkbox">
+
+			<input type="submit" value="Отправить на проверку"><br>
+
+			<label for="#">Дата вашего рождения</label>
+			<input type="date" name="" id=""><br>
+			
+			<input type="file" multiple><br>
+
+			<!-- Развернутый комментарий -->
+			<textarea cols="30" rows="10"></textarea><br><br>
+
+			<!-- Выпадающий список -->
+			<label>Выберите город</label>
+			<select>
+				<option value="">Москва</option>
+				<option value="">Питер</option>
+				<option value="" selected>Краснодар</option>
+			</select><br>
+
+			<label for="#">Введите пароль</label>
+			<input type="password"><br>
+
+			<label for="">Сбросить все</label>
+			<input type="reset">
+
+		
+		</fieldset>
+		
+		<fieldset>
+			<legend>
+				Данные пользователя
+			</legend>
+		</fieldset>
+	</form>
+
+</body>
+</html>
