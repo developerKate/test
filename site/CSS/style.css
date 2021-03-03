@@ -1,0 +1,16 @@
+h1 {
+	font-size: 14px;
+	color: red;
+}
+.text {
+	color: green;
+}
+.text-big {
+	font-size: 20px;
+}
+.text {
+	font-weight: 1000;
+}
+.text-big {
+	text-decoration: underline;
+}
